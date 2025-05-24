@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="main-container">
+    <header>
+      <h1>Quiz App</h1>
+      <div class="progress-bar-container">
+        <div class="progress-bar" id="progress-bar"></div>
+      </div>
+    </header>
+
+    <div class="content">
+      <div class="sidebar" id="sidebar">
+        <!-- Buttons for question navigation will be generated here -->
+      </div>
+
+      <div class="quiz-container">
+        <div id="question-container">
+          <h2 id="question">Question text</h2>
+          <div id="options"></div>
+        </div>
+
+        <div class="navigation">
+          <button id="prev-btn">Previous</button>
+          <button id="next-btn">Next</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
